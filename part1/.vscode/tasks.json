@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g  basic_test.c get_path.o students_code.S -o hw3_part1.out"
+            ],
+            "problemMatcher": [],
+            "detail": "Task to assemble assembly files."
+        }
+    ]
+}
