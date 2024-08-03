@@ -75,7 +75,7 @@ original:
 
 special:
   movq %rax, %rdi        # specifically asked in the pdf
-  addq $rbx, 128(%rsp)   # next command
+  addq %rbx, 128(%rsp)   # next command
   
   popq %r15
   popq %r14

@@ -23,7 +23,7 @@ void my_set_gate_offset(gate_desc *gate, unsigned long addr) {
     
 }
 
-# the opposite of the previous function
+//the opposite of the previous function
 unsigned long my_get_gate_offset(gate_desc *gate) {
     unsigned long high = gate->offset_high;
     unsigned long middle = gate->offset_middle;
